@@ -3,6 +3,7 @@
   - home
   - mqtt-server
   - node-red
+  - wemos-d1
   - wifi
 
 - title: Examples
