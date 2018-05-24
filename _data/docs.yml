@@ -2,6 +2,7 @@
   docs:
   - home
   - mqtt-server
+  - node-red
   - wifi
 
 - title: Examples
