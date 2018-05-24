@@ -37,3 +37,9 @@ As soon as the message is received by the broker it will send the received infor
 In turn this one will forward it to the debug node. If all goes well you should see the current date and time in the debug area of Node RED.
 
 Congratulations, you've got a working MQTT broker.
+
+Note that you didn't have to configure anything on the MQTT broker. Since no authentication is required and no ACL's are configured you can freely publish on any topic.
+
+The next step is to connect sensors and actuators to the broker establish a communication path between them.
+
+Keep in mind that with the current setup more than one client can publish information to the same topic. At the same time, more than one client can subscribe to the same topic simultaneous.
