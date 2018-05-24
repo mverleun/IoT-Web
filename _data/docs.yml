@@ -1,0 +1,11 @@
+- title: Getting Started
+  docs:
+  - home
+  - mqtt-server
+  - wifi
+
+- title: Examples
+  docs:
+  - cheatsheet
+  - font-awesome
+  - bootstrap
