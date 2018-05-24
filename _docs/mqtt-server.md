@@ -19,3 +19,26 @@ If you perform a default installation of Mosquitto on a Raspberry Pi (yes, its m
 
 In a controlled environment this is a good start for students to work on their understanding of the MQTT protocol.
 They will realize soon the value that ACL's provide and probably will ask for them.
+
+# Installing Mosquitto on a Raspberry Pi
+Perform the following steps to install Mosquitto:
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install mosquitto
+sudo apt-get install mosquitto-clients
+```
+This will install the lastest version of Mosquitto on your Pi.
+
+Make sure that the Mosquitto service is started and will be started after booting:
+
+```bash
+sudo systemctl enable mosquitto
+sudo systemctl start mosquitto
+```
+Verify that the service is running:
+
+```bash
+systemctl status mosquitto
+```
