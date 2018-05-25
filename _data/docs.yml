@@ -9,6 +9,7 @@
 - title: Firmwares
   docs:
   - firmwares
+  - sensor-bh1750
 
 - title: Examples
   docs:
