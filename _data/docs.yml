@@ -6,6 +6,10 @@
   - wemos-d1
   - wifi
 
+- title: Firmwares
+  docs:
+  - firmwares
+
 - title: Examples
   docs:
   - cheatsheet
