@@ -15,11 +15,11 @@ Instead of creating a great universal firmware that supports a multitude of shie
 
 If new shields are added it is easy to create the firmware because of the homie framework.
 
-## Initital configuration of the firmware
-When the device has enough storage capacity the configuration can be done easilty through a web browser. Each freshly flashed device will start as an accesspoint where you can connect to. 
+## Initial configuration of the firmware
+When the device has enough storage capacity the configuration can be done easily through a web browser. Each freshly flashed device will start as an access-point where you can connect to. 
 Simply fill in the required information and the device is ready for use.
 
-It is also possible to create a config file in JSON format and upload it to the device. An example file is provided in the directory `data/homie`. Rename `config.json.example` into `config.json` and modify the settings to match your configuration.
+It is also possible to create a config file in JSON format and upload it to the device. An example file is provided in the directory `data/homie` of the downloaded source-code. Rename `config.json.example` into `config.json` and modify the settings to match your configuration.
 
 A typical `config.json` file looks like this:
 

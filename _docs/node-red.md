@@ -2,7 +2,7 @@
 title: Node RED
 permalink: /docs/node-red/
 ---
-[Node RED](https://nodered.org) is installed on a Rasberry Pi by default.
+[Node RED](https://nodered.org) is installed on a Raspberry Pi by default.
 It makes it easy to design flows such as this one:
 ![](/img/Node-RED/Node-RED___node-red_marcoach_nl.png)
 
@@ -32,7 +32,7 @@ The input node has not received anything yet to pass on to the debug node, so fo
 
 Click on the pad which is on the left of the inject node (labeled timestamp) to inject the current date and time into the mqtt output node.
 
-The actual date and time will be published on the topic 'mqtt/messsage' by the mqtt output node.
+The actual date and time will be published on the topic 'mqtt/message' by the mqtt output node.
 As soon as the message is received by the broker it will send the received information to the mqtt input node.
 In turn this one will forward it to the debug node. If all goes well you should see the current date and time in the debug area of Node RED.
 
