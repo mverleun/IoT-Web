@@ -1,9 +1,8 @@
 ---
-layout: page
-title: Firmwares
-permalink: /firmwares/
+title: MQTT Server
+permalink: /docs/firmwares/
 ---
-# Firmware
+# Firmwares
 When looking for firmware don't forget to check the following projects: [sonoff/tasmota](https://github.com/arendst/Sonoff-Tasmota/tree/development/sonoff) and [espeasy](https://www.letscontrolit.com/wiki/index.php/ESPEasy). They are
 universal firmwares that can do multiple things. Even though they're not difficult to use,
 they all have their own mqtt topics, data formats und update procedures making them less intuitive.
