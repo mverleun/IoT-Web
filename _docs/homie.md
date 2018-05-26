@@ -11,4 +11,4 @@ Using homie allows us to keep the source code of our sensors and actuators focus
 
 Configuration management is also handled by this framework and it allows remote updates OTA (Over The Air)(ESP8266 Only).
 
-This is great if you rapidly want to change firmware on a controller to change it task, e.g. when you attach a different shield.
+This is great if you rapidly want to change firmware on a device to change it task, e.g. when you attach a different shield.
