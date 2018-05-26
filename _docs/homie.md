@@ -2,7 +2,6 @@
 title: Homie
 permalink: /docs/homie/
 ---
-# Homie
 [Homie](https://github.com/marvinroger/homie-esp8266/) is developped by Marvin Roger. It provides a great framework for ESP8266 based IoT devices. 
 
 The concept of homie has been extended to other environments as well. This allows you to create python applications that conform to the homie standard, creating a homegenous environment.
