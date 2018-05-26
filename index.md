@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: docs
 ---
 # IoT for education
@@ -11,7 +8,7 @@ It's about the **big picture** where a lot of skills are required.
 
 Teaching IoT is more than doing some programming in Python or C(++) to read sensor values or turn a LED on.
 It's about sensors, microcontrollers, information storage, etc. It's also about connectivity, bluetooth, wifi, LoraWan and more. Roughly we identify 7 areas:
-![IoT Components](https://raw.githubusercontent.com/mverleun/IoT-devices/master/Documentation/Images/IoT_Components.png)
+![IoT Components](/img/IoT_Components.png)
 
 Often devices cover multiple areas, the above image is meant to show the diversity of skills required to master IoT accross the board.
 

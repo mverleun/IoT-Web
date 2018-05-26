@@ -2,3 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 *.orig
+img/.DS_Store
+img/Homie/.DS_Store
