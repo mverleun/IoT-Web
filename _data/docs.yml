@@ -3,6 +3,7 @@
   - home
   - mqtt-server
   - node-red
+  - owntracks-node-red
   - homie
   - wemos-d1
   - wifi
