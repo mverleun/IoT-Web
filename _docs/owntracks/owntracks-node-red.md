@@ -1,6 +1,6 @@
 ---
 title: Owntracks
-permalink: /docs/owntracks/
+permalink: /docs/owntracks-node-red/
 ---
 Once you've got the MQTT broker and Node RED up and running you can use the following Node RED flow for a quick and easy success.
 
