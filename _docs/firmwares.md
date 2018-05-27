@@ -53,7 +53,7 @@ This is an example where MQTT authentication is required, which is recommended. 
     "password": "<Password>"
     },
   "mqtt":{
-    "host":"<Your MQTT Server",
+    "host":"<Your MQTT Server>",
     "port":1883,
     "base_topic":"devices/"
   },
