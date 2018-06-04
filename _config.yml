@@ -14,6 +14,8 @@ git_edit_address: https://github.com/mverleun/IoT-Web/edit/master/
 # bootwatch: paper
 bootwatch: custom
 
+include:
+  - "_headers"
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -54,3 +56,4 @@ collections:
   posts:
     permalink: /blog/:year/:month/:day/:title/
     output: true
+
