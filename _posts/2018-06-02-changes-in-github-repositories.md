@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to this series of blogs"
+title:  "New firmware and changes in build process"
 date:   2018-06-02 08:42:32 +0200
 categories: iotkit update
 ---
