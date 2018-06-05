@@ -68,4 +68,11 @@ This is an example where MQTT authentication is required, which is recommended. 
 
 Once the device is configured it is possible to change them via MQTT. Detailed configuration instructions can be found in the homie documentation. 
 
+# Firsttime flashing
+If you want to upload the `config.json` file to start with configured devices you'll have to upload the files into the spiffs filesystem first. 
+This can be done from within platformio by running the command `pio run -t uploadfs`.
+
+When the files have been uploaded you can upload the firmware. From the terminal you can run the command `pio run -t upload`.
+
+Afterwards the device restarts and connects to the WiFi. When this is done the device will connect to the configured MQTT server.
 

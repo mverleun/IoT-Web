@@ -1,6 +1,7 @@
 - title: Components
   docs:
   - home
+  - raspberry-pi
   - mqtt-server
   - node-red
   - owntracks-node-red
