@@ -21,3 +21,8 @@ In my experience these are all the components required to do a proper introducti
 
 The IoT Shield can be used with Node RED, but programming it in Python is also possible. Do you want to use another programming language? Feel free to do so, if your favorite programming language can be used with a breadboard it can be used with the IoT Shield as well.
 
+# Jupyter Notebooks
+If you're not familiar with these notebooks you're in for a pleasant surprise. Jupyter notebooks allow you to combine documentation with executable code, all within the same notebook.
+This can be used to write snippets of code with explaining text. This snippets can be executed. The students get immediate feedback on their programming skills!
+
+Notebooks can be exported and imported as well. This allows for easy sharing between students, or it can be used to hand in their homework.

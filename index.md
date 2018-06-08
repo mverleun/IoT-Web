@@ -26,7 +26,7 @@ The [homie convention](https://github.com/homieiot/convention) establishes a sta
 The homie convention is available for ESP8266 based devices, but also as a Python framework. It avoids a lot of coding which results in clean firmwares that are easy to understand, even for novice students whilest meeting the earlier mentioned requirments.
 
 ## Wemos D1 Mini
-Most of the firmwares are designed for the Wemos D1 Mini. The Wemos D1 Mini devices are easy to flash because they already have a micro USB connector on board. They also have enough storage to allow OTA updates. Their low price is an advantage as well as the ability to change the shields.
+Most of the firmwares are designed for the Wemos D1 Mini. The Wemos D1 Mini devices are ESP8266 based devices which are easy to flash because they already have a micro USB connector on board and some additional electronics to switch the ESP8266 in and out of programming mode. They also have enough storage to allow OTA updates. Their low price is an advantage as well as the ability to change the shields.
 
 ### Shields
 There are many shields available for the Wemos D1 Mini. But DIY is also possible and not hard to do. 

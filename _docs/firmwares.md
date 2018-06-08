@@ -1,25 +1,47 @@
 ---
-title: Firmwares
 permalink: /docs/firmwares/
+title: Firmwares
 ---
-When looking for firmware don't forget to check the following projects: [sonoff/tasmota](https://github.com/arendst/Sonoff-Tasmota/tree/development/sonoff), [espeasy](https://www.letscontrolit.com/wiki/index.php/ESPEasy) and [espurna](https://bitbucket.org/xoseperez/espurna). 
+When looking for firmware don't forget to check the following projects:
+[sonoff/tasmota](https://github.com/arendst/Sonoff-Tasmota/tree/development/sonoff),
+[espeasy](https://www.letscontrolit.com/wiki/index.php/ESPEasy) and
+[espurna](https://bitbucket.org/xoseperez/espurna).
 
-They are universal firmwares that can do multiple things. Even though they're not difficult to use,
-they all have their own mqtt topics, data formats und update procedures making them less intuitive.
-Also their source code has grown over time, making it less easy to study it in a short time.
+They are universal firmwares that can do multiple things. Even though they're
+not difficult to use, they all have their own mqtt topics, data formats und
+update procedures making them less intuitive. Also their source code has grown
+over time, making it less easy to study it in a short time.
 
-They may provide what you need, or can be used as inspiration for your own projects.
+They may provide what you need, or can be used as inspiration for your own
+projects.
 
-## Multiple firmwares
-Instead of creating a great universal firmware that supports a multitude of shields this project consists of dedicated firmwares for a specific task.
+Multiple firmwares
+------------------
+Instead of creating a great universal firmware that supports a multitude of
+shields this project consists of dedicated firmwares for a specific task.
 
-If new shields are added it is easy to create the firmware because of the homie framework.
+If new shields are added it is easy to create the firmware because of the homie
+framework.
 
-## Initial configuration of the firmware
-When the device has enough storage capacity the configuration can be done easily through a web browser. Each freshly flashed device will start as an access-point where you can connect to. 
-Simply fill in the required information and the device is ready for use.
+PlatformIO
+----------
+Development of the firmwares is done using [PlatformIO](https://platformio.org). This is a great open source IDE that supports a wide variety of boards. All the examples mentioned on this site assume that directories are structured according to the structure of this
+platform.
 
-It is also possible to create a config file in JSON format and upload it to the device. An example file is provided in the directory `data/homie` of the downloaded source-code. Rename `config.json.example` into `config.json` and modify the settings to match your configuration.
+When including external libraries this is often done via the file
+`platformio.ini`. Each firmware has it’s own copy of this file.
+
+Initial configuration of the firmware
+-------------------------------------
+When the device has enough storage capacity the configuration can be done easily
+through a web browser. Each freshly flashed device will start as an access-point
+where you can connect to. Simply fill in the required information and the device
+is ready for use.
+
+It is also possible to create a config file in JSON format and upload it to the
+device. An example file is provided in the directory `data/homie` of the
+downloaded source-code. Rename `config.json.example` into `config.json` and
+modify the settings to match your configuration.
 
 A typical `config.json` file looks like this:
 
@@ -44,7 +66,9 @@ A typical `config.json` file looks like this:
   "device_id":"wemos-x"
 }
 ```
-This is an example where MQTT authentication is required, which is recommended. If you don't want to use authentication you can use the following as a template:
+
+This is an example where MQTT authentication is required, which is recommended.
+If you don't want to use authentication you can use the following as a template:
 
 ```
 {
@@ -64,15 +88,16 @@ This is an example where MQTT authentication is required, which is recommended. 
   "device_id":"wemos-x"
 }
 ```
-> The base_topic setting normally is `"homie/"`. Make sure to be consistent when changing the value to something else. 
 
-Once the device is configured it is possible to change them via MQTT. Detailed configuration instructions can be found in the homie documentation. 
+>   The base_topic setting normally is `"homie/"`. Make sure to be consistent when changing the value to something else.
 
-# Firsttime flashing
-If you want to upload the `config.json` file to start with configured devices you'll have to upload the files into the spiffs filesystem first. 
-This can be done from within platformio by running the command `pio run -t uploadfs`.
+Once the device is configured it is possible to change them via MQTT. Detailed
+configuration instructions can be found in the homie documentation.
+
+First-time flashing
+==================
+If you want to upload the `config.json` file to start with configured devices you'll have to upload the files into the spiffs filesystem first. This can be done from within platformio by running the command `pio run -t uploadfs`.
 
 When the files have been uploaded you can upload the firmware. From the terminal you can run the command `pio run -t upload`.
 
 Afterwards the device restarts and connects to the WiFi. When this is done the device will connect to the configured MQTT server.
-
