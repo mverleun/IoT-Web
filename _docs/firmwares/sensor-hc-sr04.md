@@ -1,5 +1,5 @@
 ---
-title: Sensor HC SR04
+title: Sensor HC SR04 (Ultrasonice range sensor)
 permalink: /docs/sensor-hc-sr04/
 ---
 Ready to use firmware is available for download at the [releases](https://github.com/mverleun/IoT-devices/releases) page.

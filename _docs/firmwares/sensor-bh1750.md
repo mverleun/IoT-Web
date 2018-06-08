@@ -1,5 +1,5 @@
 ---
-title: Sensor BH1750
+title: Sensor BH1750 (Lightsensor)
 permalink: /docs/sensor-bh1750/
 ---
 Ready to use firmware is available for download at the [releases](https://github.com/mverleun/IoT-devices/releases) page.

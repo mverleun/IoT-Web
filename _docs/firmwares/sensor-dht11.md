@@ -1,5 +1,5 @@
 ---
-title: Sensor DHT11
+title: Sensor DHT11 (Temperature and Humidity sensor)
 permalink: /docs/sensor-dht11/
 ---
 Ready to use firmware is available for download at the [releases](https://github.com/mverleun/IoT-devices/releases) page.
