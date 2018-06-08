@@ -8,3 +8,7 @@ Today I added a [Raspberry Pi](/docs/raspberry-pi/) to the components. It's grea
 
 We've build prototypes in the past, tested them and are ready for production.
 Unfortunate we lack the funds to start mass producing them and mass production is required to keep the price low.
+
+The following picture gives shows the shield, which fits a Raspberry Pi Zero as well as a regular Raspberry Pi.
+
+![IoT Shield](/img/IoT-Shield/IoT-Shield.png)
