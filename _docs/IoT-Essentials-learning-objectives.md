@@ -13,14 +13,13 @@ There are many ways to visualize the IoT landscape. IoT solutions often
 start with some sensors that transmit data to the cloud where it is
 visualized on a dashboard.
 
-Actuators are introduced later on as well as is the storage of data,
-maybe even \'big data\'.
+Actuators are introduced later on as well as is the storage of data, maybe even 'big data'.
 
 The figure below identifies 7 elements, but just as with the OSI model,
 these elements can be combined into a single device. As a result the 7
 elements are not always clearly visible.
 
-![](Pictures/1000000000000354000001578224CCFE.png)
+![](/img/IoT_Components.png)
 
 In order to identify what is important to know, what is nice to now etc.
 we need to explore the characteristics of the areas in more detail.
