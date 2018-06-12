@@ -12,7 +12,8 @@ git_edit_address: https://github.com/mverleun/IoT-Web/edit/master/
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
 # bootwatch: paper
-bootwatch: pulse
+#bootwatch: custom
+bootwatch: simplex
 
 include:
   - "_headers"
