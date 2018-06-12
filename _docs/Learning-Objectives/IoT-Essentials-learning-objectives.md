@@ -1,6 +1,6 @@
 ---
 title: IoT Essentials learning objectives
-permalink: /docs/IoT-Essentials-learning-objectives/
+permalink: /docs/Learning-Objectives/IoT-Essentials-learning-objectives/
 ---
 Learning objectives IoT Essentials
 
