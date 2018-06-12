@@ -2,14 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 *.orig
-img/.DS_Store
-img/Homie/.DS_Store
-img/.DS_Store
-_docs/.DS_Store
-img/.DS_Store
-img/.DS_Store
-img/.DS_Store
-_docs/.DS_Store
+*.DS_Store
 *.png#
-img/.DS_Store
-img/.DS_Store
+_docs/IoT-Shield/Raspberry Pi IoT Shield/RPi_Hat_Template-cache.dcm
