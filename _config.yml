@@ -13,7 +13,7 @@ git_edit_address: https://github.com/mverleun/IoT-Web/edit/master/
 # comment out this to use default Bootstrap
 # bootwatch: paper
 #bootwatch: custom
-bootwatch: simplex
+bootwatch: spacelab
 
 include:
   - "_headers"
