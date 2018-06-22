@@ -69,8 +69,8 @@ and humidity sensor.
 Actuators received similar information from the micro-controller and act
 according to the information received.
 
-#### I^(2)C
-I^(2)C devices are also known as I2C. The I^(2)C devices are connected to a digital bus system which consists of 2 wires for exchanging information. One is a clock signal and the clock-rate determines the speed at which information is exchanged. The other one carries the actual information. Device connected to the I2C bus have an address on this bus by which they can be identified.
+#### I2C
+The I2C devices are connected to a digital bus system which consists of 2 wires for exchanging information. One is a clock signal and the clock-rate determines the speed at which information is exchanged. The other one carries the actual information. Device connected to the I2C bus have an address on this bus by which they can be identified.
 
 #### Other serial protocols
 There are other serial protocols that can be used to exchange
@@ -187,7 +187,7 @@ Given the IoT landscape described above I propose the following learning objecti
 
 Students should be able to describe commonly used electronic techniques that are used to connect sensors and actuators:
 
--   I^(2)C
+-   I2C
 -   1-Wire
 -   RS232
 -   Hardwiring (Digital and analogue)
