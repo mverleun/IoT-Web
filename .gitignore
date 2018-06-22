@@ -6,6 +6,5 @@ _site
 *.png#
 _docs/IoT-Shield/Raspberry Pi IoT Shield/RPi_Hat_Template-cache.dcm
 ._config.yml.swp
-_docs/.DS_Store
-_docs/.DS_Store
-img/.DS_Store
+*/.DS_Store
+*/*/.DS_Store
