@@ -1,11 +1,11 @@
-- title: The Bigger Picture
+- title: IoT in Education
   docs:
   - IoT-Essentials-learning-objectives
   - overview
+  - home
   
 - title: Components
   docs:
-  - home
   - raspberry-pi
   - mqtt-server
   - node-red
