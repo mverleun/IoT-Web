@@ -44,6 +44,13 @@ logger:
 ota:
   password: '<OTAPASSWORD>'
 
+# The BH1750 sensor is an I2C sensor, so first prepare the 
+# controller to talk to I2C sensors!
+i2c:
+  sda: D1
+  scl: D2
+  scan: False
+  
 sensor:
   # Wifi is a builtin sensor
   - platform: wifi_signal
