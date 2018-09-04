@@ -73,7 +73,7 @@ sensor:
 
 Let's look at this in a bit more detail:
 `update_interval` tells the device to sample the environment every second. This sample is fed into the `filters` section. `filter_nan` removes samples where an invalid reading has been done. The `sliding_window_moving_average` part tells that no averages have to be calculated and that every calculated value has to be sent via MQTT.
-This would result in a value being published every 5 seconds, even if the value hasn't changed since the previous publication. 
+This would result in a value being published every second, even if the value hasn't changed since the previous publication. This would flood the MQTT broker...
 
 This is where `unique` comes into play. Only if a value has changed it is processed! So the MQTT broker is not flooded with messages!
 
