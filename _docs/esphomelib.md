@@ -60,3 +60,4 @@ Once you've created this file compiling and uploading is as easy as running the 
 `$ esphomeyaml wemos_1.yaml run`
 
 This will create the proper sourcecode, compile this sourcecode and upload the created firmware to the controller, either via USB or OTA (Over The Air).
+
