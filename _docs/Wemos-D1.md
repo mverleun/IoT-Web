@@ -21,4 +21,9 @@ The first time you load firmware from this project you'll have to connect the de
 
 When changing shields you'll also have to change the firmware of the device to match them. 
 
+# Mounting
+If you want to mount the Wemos D1 mini you can have a look at this 3D design: [WEMOS D1 Mini Bumper Mount](https://www.thingiverse.com/thing:1848391)
+It's easy to click the Wemos in it and you can remove it just as easy.
+![](https://cdn.thingiverse.com/renders/37/21/52/b6/91/8fca6309c9e327e14d66e005eca00aef_preview_featured.jpg)
+
 
