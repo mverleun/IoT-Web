@@ -1,5 +1,5 @@
 ---
-title: Homie
+title: ESPHomelib
 permalink: /docs/esphomelib/
 ---
 This is by far the easiest framework I've seen sofar. [ESPHomelib](https://esphomelib.com/esphomeyaml/index.html) is developed by Otto Winter. It provides a great framework for ESP8266 and ESP32 based IoT devices. 
