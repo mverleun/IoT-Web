@@ -49,36 +49,28 @@ sensor:
   - platform: wifi_signal
     name: "WiFi Signal Sensor"
     update_interval: 10s
-  # The DHT sensor uses pin D4 and it reports two values
-  # Temperature and humidity.
+  # The BH1750 sensor by default uses I2C address 0X23
   # Every 1 second a new sample is taken
-  - platform: dht
-    pin: D4
-    model: DHT11
-    update_interval: 5s
-    temperature:
-        name: "Temperature"
-        filters:
-         - filter_nan:
-         - sliding_window_moving_average:
-             window_size: 1
-             send_every: 1
-         - unique:
-    humidity:
-        name: "Temperature"
-        filters:
-         - filter_nan:
-         - sliding_window_moving_average:
-             window_size: 1
-             send_every: 1
-         - unique:
+  - platform: bh1750
+    address: 0x23
+    update_interval: 1s
+    name: "Brightness"
+    filters:
+      - filter_nan:
+      - sliding_window_moving_average:
+          window_size: 1
+          send_every: 1
+      - unique:
+
 ```
 
 Let's look at this in a bit more detail:
-`update_interval` tells the device to sample the environment every 5 seconds. This sample is fed into the `filters` section. `filter_nan` removes samples where an invalid reading has been done. The `sliding_window_moving_average` part tells that no averages have to be calculated and that every calculated value has to be sent via MQTT.
-This would result in a value being published every 5 seconds, even if the value hasn't changed since the previous publication.
+`update_interval` tells the device to sample the environment every second. This sample is fed into the `filters` section. `filter_nan` removes samples where an invalid reading has been done. The `sliding_window_moving_average` part tells that no averages have to be calculated and that every calculated value has to be sent via MQTT.
+This would result in a value being published every 5 seconds, even if the value hasn't changed since the previous publication. 
 
-This is where `unique` comes into play. Only if a value has changed it is processed! 
+This is where `unique` comes into play. Only if a value has changed it is processed! So the MQTT broker is not flooded with messages!
+
+In a real world you probably want to increase the window_size and average out a couple of samples.
 
 Once you've got the file type `esphomeyaml wemos_1.yaml run` and watch the show:
 
