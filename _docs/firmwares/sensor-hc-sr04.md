@@ -8,4 +8,4 @@ The sourcecode is available [here](https://github.com/mverleun/IoT-devices).
 > The text below is directly imported from the github project page. It is the same as the README.md document found there.
 
 <!-- load remote readme file from github -->
-{% remote_markdown https://raw.githubusercontent.com/mverleun/IoT-devices/master/Sensor-HC-SR04/README.md %}
+{% remote_markdown https://raw.githubusercontent.com/mverleun/IoT-devices/master/Sensor-HC-SR04/homie/README.md %}
