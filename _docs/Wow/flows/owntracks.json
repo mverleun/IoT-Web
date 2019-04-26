@@ -1,0 +1,78 @@
+[
+    {
+        "id": "10016e5.15bdc12",
+        "type": "mqtt in",
+        "z": "712b7a52.56bd7c",
+        "name": "",
+        "topic": "owntracks/#",
+        "qos": "0",
+        "broker": "5df56435.f281ec",
+        "x": 171.5,
+        "y": 214,
+        "wires": [
+            [
+                "203498bc.ca3be8"
+            ]
+        ]
+    },
+    {
+        "id": "203498bc.ca3be8",
+        "type": "owntracks",
+        "z": "712b7a52.56bd7c",
+        "x": 394.5,
+        "y": 213,
+        "wires": [
+            [
+                "58e95381.8ed814"
+            ]
+        ]
+    },
+    {
+        "id": "58e95381.8ed814",
+        "type": "worldmap",
+        "z": "712b7a52.56bd7c",
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "false",
+        "path": "/worldmap",
+        "x": 611.5,
+        "y": 213,
+        "wires": []
+    },
+    {
+        "id": "5df56435.f281ec",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": ""
+    }
+]
