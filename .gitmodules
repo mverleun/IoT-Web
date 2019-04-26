@@ -1,0 +1,3 @@
+[submodule "Wow"]
+	path = Wow
+	url = http://github.com/mverleun/Wow
