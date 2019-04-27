@@ -1,5 +1,5 @@
 ---
-permalink: /docs/wow-demo/
+permalink: /docs/Wow-Demo/
 title: Wow Demo
 ---
 # The power of Wow...
