@@ -1,6 +1,7 @@
-[Main document](README.md)
-# Next Steps
-
+---
+permalink: /docs/Next-Steps/
+title: Next Steps
+---
 Let's hope that the students now are keen to understand how things work. There are several topics worth investigating:
 
 ## The MQTT protocol itself. 

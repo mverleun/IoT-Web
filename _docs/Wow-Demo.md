@@ -1,9 +1,7 @@
 ---
 permalink: /docs/Wow-Demo/
-title: Wow Demo
+title: The power of Wow...
 ---
-# The power of Wow...
-
 Learning Linux is encouraged by many vendors. Even Microsoft encourages students to learn Linux.
 
 But learning Linux can be dull. There is a lot to learn, but the beginning is often not very inspiring.
@@ -40,12 +38,12 @@ You could also setup your own and use that one. It's not difficult but you have 
 
 Just use one of the following guides to get things going:
 
-* [Howto Setup your own server](Wow/Setup MQTT Broker and Node RED.md)
+* [Howto Setup your own server](Setting-up-services)
 * Configure Owntracks on iOS device
 * Configure Owntracks on Android device
-* [Start the Demo](Wow/Start Demo.md)
-* [Problem solving](Wow/Problem Solving.md) 
-* [Next steps](Wow/Next Steps.md)
+* [Start the Demo](Wow/Start-Demo)
+* [Problem solving](Wow/Problem-Solving) 
+* [Next steps](Wow/Next-Steps)
 
 
  

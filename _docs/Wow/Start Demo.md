@@ -1,6 +1,7 @@
-[Main document](README.md)
-# Start the Demo
-
+---
+permalink: /docs/Start-Demo/
+title: Start the Demo
+---
 MQTT is sometimes refered to as 'push notifications'. This means that there is virtually no network traffic unless information has to be shared between a subscriber and a publisher.
 
 The publisher pushes the information to the MQTT broker using topics. The MQTT broker forwards these message to those who have subscribed to these topics.

@@ -1,6 +1,7 @@
-[Main document](README.md)
-# Problem Solving
-
+---
+permalink: /docs/Problem-Solving/
+title: Problem Solving
+---
 This demo is pretty 'foolproof'. But as we all know things can still go wrong.
 
 The majority of the issues are probably related to typo's on the smartphones and other network issues.

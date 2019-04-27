@@ -2,8 +2,6 @@
 permalink: /docs/Setting-up-services/
 title: Setting up a MQTT Broker and Node RED
 ---
-# Setting up a MQTT Broker and Node RED
-
 The easiest MQTT broker to setup is Mosquitto. 
 Mosquitto can be run inside a Docker container but a native installation is also possible.
 
