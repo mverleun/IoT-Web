@@ -11,7 +11,7 @@
   - mqtt-server
   - node-red
   - owntracks-node-red
-  - esphomelib
+  - esphome
   - homie
   - wemos-d1
   - wifi
