@@ -32,4 +32,4 @@ Updating the server requires OS knowledge and installing software as well.
 
 A good definition of usefull (required?) skills for novices are defined by LPI with the [Linux Essentials](https://www.lpi.org/our-certifications/exam-010-objectives) exam as the proof of the pudding.
 
-[Main document](README.md)
+[Main document](/docs/Wow-Demo/)

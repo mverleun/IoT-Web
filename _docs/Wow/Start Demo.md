@@ -23,8 +23,8 @@ Just keep it running for a while. It could take some time before the first messa
 If you are using the Raspberry Pi as the MQTT broker you can connect to the following URL: `http://{hostname|ip address}:1880/worldmap` with a webbrowser. Don't forget the portnumber (1880).
 
 Find your area on the map, or zoom out, and wait for the location messages to arrive. They will show up nicely. It could (should) look similar to this:
-![](images/Node-RED_map_all_the_things.png)
+![](/docs/Wow/images/Node-RED_map_all_the_things.png)
 
-If you want to change some settings in Node RED navigate to the following URL: `http://{hostname|ip address}:1880/`. There you'll see the flow that is used to display the locations on the world map. It looks like this: ![](images/Node-RED-flow.png).
+If you want to change some settings in Node RED navigate to the following URL: `http://{hostname|ip address}:1880/`. There you'll see the flow that is used to display the locations on the world map. It looks like this: ![](/docs/Wow/images/Node-RED-flow.png).
 
-[Main document](README.md)
+[Main document](/docs/Wow-Demo/)

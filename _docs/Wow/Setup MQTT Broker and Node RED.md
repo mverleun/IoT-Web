@@ -23,3 +23,4 @@ It will also install a default flow for Node RED that will connect to the locall
 
 At the end it will display the IP address of the system. This information is needed to configure the Owntracks apps on the smartphones. 
 
+[Main document](/docs/Wow-Demo/)
