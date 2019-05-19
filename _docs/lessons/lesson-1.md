@@ -1,5 +1,5 @@
 ---
-permalink: /docs/lessons/lesson-1/
+permalink: /docs/lesson-1/
 title: "Lesson 1: Installing Raspbian"
 ---
 When looking for firmware don't forget to check the following projects:
