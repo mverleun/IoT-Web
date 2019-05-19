@@ -25,9 +25,8 @@
   - sensor-bh1750
   - sensor-dht11
   - sensor-hc-sr04
-  - actuator-tb16612
   
 - title: Lessons
-  lessons:
+  docs:
   - lesson-1
 
