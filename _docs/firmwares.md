@@ -86,8 +86,8 @@ When the files have been uploaded you can upload the firmware. From the terminal
 
 Afterwards the device restarts and connects to the WiFi. When this is done the device will connect to the configured MQTT server.
 
-## Option 2: ESPHomelib with yaml config file
-When using ESPHomelib it is possible to generate the source-code automatically. Building the firmware still requires that PlatformIO is installed, but it is invisible to the novice user.
+## Option 2: ESPHome with yaml config file
+When using ESPHome, formerly known as ESPHomelib, it is possible to generate the source-code automatically. Building the firmware still requires that PlatformIO is installed, but it is invisible to the novice user.
 
 The approach is slightly different. For each controller you'll have to create a config file. Each config file consists of multiple sections where you can configure the Wi-Fi settings, the MQTT broker and a, unique, name for the device.
 
@@ -98,7 +98,7 @@ This is very powerful and allows automation to take place on a device, but it al
 An example config file could look like this:
 
 ```
-esphomeyaml:
+esphome:
   name: wemos_1
   platform: ESP8266
   board: d1_mini
@@ -153,7 +153,7 @@ sensor:
 
 Let's assume that the name of this file is `wemos_1.yaml`. Once you've created this file compiling and uploading is as easy as running the command:
 
-`$ esphomeyaml wemos_1.yaml run`
+`$ esphome wemos_1.yaml run`
 
 ### First-time flashing
 The very first time you flash ESPHomelib firmware you have to connect the device via USB.
