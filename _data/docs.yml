@@ -3,6 +3,8 @@
   - IoT-Essentials-learning-objectives
   - overview
   - home
+  
+- title: Power of Wow
   - Wow-Demo
   
 - title: Components
@@ -25,6 +27,6 @@
   - actuator-tb16612
   
 - title: Lessons
-  docs:
-  - firmwares
+  lessons:
+  - lesson-1
 
