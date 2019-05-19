@@ -1,6 +1,6 @@
 ---
-permalink: /docs/lesson-1/
-title: Lesson 1: Installing Raspbian
+permalink: /lessons/lesson-1/
+title: "Lesson 1: Installing Raspbian"
 ---
 When looking for firmware don't forget to check the following projects:
 [sonoff/tasmota](https://github.com/arendst/Sonoff-Tasmota/tree/development/sonoff),
