@@ -23,4 +23,8 @@
   - sensor-dht11
   - sensor-hc-sr04
   - actuator-tb16612
+  
+- title: Lessons
+  docs:
+  - firmwares
 
