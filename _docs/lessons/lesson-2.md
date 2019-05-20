@@ -30,6 +30,9 @@ Be carefull with the names and numbers. There are different numbering schemes. W
 
 ![](/img/lessons/lesson-2/hardware-schema.png)
 
+In order to avoid connectivity and wiring errors I'll use a shield that has all the wiring on it.
+It's called a IoT shield and the specs are on github.
+
 
 # Test hardware
 
@@ -78,4 +81,12 @@ cd ~/IoT-Devices/Python
 ```
 
 Have fun.
+
+# Troubleshooting
+
+What if things go wrong?
+LED's only work if the are connected properly. If not try to reverse the pins.
+Also make sure that you use the proper wiring scheme. There are several scheme's and if you use the wrong one you'll be connecting to the wrong pins.
+
+Make sure that you are not running multiple programs at the same time. What if one program tries to turn a switch on while the other wants to turn it off?
 
