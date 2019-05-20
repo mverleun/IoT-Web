@@ -58,4 +58,24 @@ The status of both the switch and the LED is shown as well: ![](/img/lessons/les
 
 This can be repeated for all connected switches and LED's.
 
+# Python test
+If you want you can test all sensors easily with a few lines of python.
+
+First you need to install some software. Open a terminal and enter the following commands:
+
+```bash
+sudo pip install Adafruit_DHT
+git clone https://github.com/mverleun/IoT-Devices
+```
+
+This will install and download the required files. Next step is to launch the python scripts. Enter the following commands in the terminal to get them running:
+
+```bash
+cd ~/IoT-Devices/Python
+./LEDs-and-switches.py
+./Light-sensor.py
+./Temp-and-Humidity.py
+```
+
+Have fun.
 
