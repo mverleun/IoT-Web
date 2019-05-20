@@ -77,7 +77,6 @@ This will install and download the required files. Next step is to launch the py
 cd ~/IoT-Devices/Python
 ./LEDs-and-switches.py
 ./Light-sensor.py
-./Temp-and-Humidity.py
 ```
 
 Have fun.
