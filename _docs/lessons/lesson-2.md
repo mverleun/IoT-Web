@@ -44,5 +44,18 @@ Drag an input node and an output node into the editor. Connect them using a virt
 
 Double click on the input node and select the corresponding pin (GPIO5, pin 29).
 Change the resistor setting into 'pulldown'.
-Finally enter a name, 'Switch 1'. Click on 'Done' when ready.
+Finally enter a name, 'Switch 1'. Click on 'Done' when ready. ![](/img/lessons/lesson-2/flow-step-2.png)
+
+Do the same with the output. Select Pin 31 (GPIO6), set type to 'Digital output' and name to LED 1. Click 'Done' when ready.
+![](/img/lessons/lesson-2/flow-step-3.png)
+
+Finally activate the flow by clicking on 'Deploy' in the upper right corner.
+
+Press the switch. If all goes well de LED will light up when the switch is pressed. 
+
+The status of both the switch and the LED is shown as well: ![](/img/lessons/lesson-2/flow-step-4.png)
+
+
+This can be repeated for all connected switches and LED's.
+
 
