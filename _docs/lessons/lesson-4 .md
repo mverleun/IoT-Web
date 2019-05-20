@@ -53,14 +53,21 @@ Drag a 'I2C in' node into the editor and double click it. Fill in the following 
 - Address: 35
 - Command: 16
 - Bytes: 2
+
+
 ![](/img/lessons/lesson-4/i2c.png)
-Activate this I2C node with a inject node that is set to trigger each second: ![](/img/lessons/lesson-4/trigger.png)
+Activate this I2C node with a inject node that is set to trigger each second: 
+![](/img/lessons/lesson-4/trigger.png)
 
 The output from the I2C node is connected to a 'Change' node. The information is changed according to an expression which has to be filled in. ![](/img/lessons/lesson-4/change.png) The complete expression is:
 ```
 $round((payload."1" + (256 * payload."0"))/1.2,2)
 ```
 Complete this flow with a debug node: ![](/img/lessons/lesson-4/flow.png) and click on Deploy.
+
+Next challenges:
+- Replace the debug node with a MQTT ouput node.
+- Only publish a new value if it is different from the previous one. (Hint: use RBE node)
 
 ## Manage palette
 It is also possible to manage the installation of additional nodes via the GUI. See the following drop down menu: ![](/img/lessons/lesson-4/palette.png) 
