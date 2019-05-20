@@ -19,21 +19,21 @@ Make sure to download the 'full' version with all the recommended software.
 IoT is about connected devices. Connect your Raspberry Pi to a network. You can use an UTP cable or connect via WiFi. It does not really matter as long as there are no blocking routers or firewalls.
 
 To connect to WiFi click in the upper left corner on the network symbol:
-![](images/1-network.png)
+![](lessons/images/1-network.png)
 
 A dropdown list will appear with all the discovered networks. Select the one that you want to connect to and click on it.
 
 If the network is secured you will be prompted for credentials:
-![](images/2-wifi.png)
+![](lessons/images/2-wifi.png)
 
 Please enter the credentials and open a terminal by clicking on the terminal icon in the menu bar.
 
 Once the terminal is open enter the command `sudo raspi-config` and press enter:
-![](images/3-raspi-config.png)
+![](lessons/images/3-raspi-config.png)
 
 Navigate the menu's to enable I2C:
-![](images/4-interfacing-options.png)
-![](images/5-i2c.png)
+![](lessons/images/4-interfacing-options.png)
+![](lessons/images/5-i2c.png)
 
 I2C is a communication technique that allows certain electronic components to communicate with others.
 
@@ -44,12 +44,12 @@ Node RED is installed by default but it is not enabled yet. Enter the following 
 ```bash
 sudo systemctl enable --now nodered.service
 ```
-![](images/node-red.png)
+![](lessons/images/node-red.png)
 
 If you know the ip address of you Raspberry Pi you should be able to connect to Node RED from any workstation that has network access by entering the url `http://<ip address raspberry pi>:1880/`. 
 
 We will use the webbrowser on the Raspberry Pi itself.
 The url we use is `http://localhost:1880/`
-![](images/node-red-browser.png)
+![](lessons/images/node-red-browser.png)
 
 
