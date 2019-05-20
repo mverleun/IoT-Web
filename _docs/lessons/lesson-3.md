@@ -69,5 +69,5 @@ Assuming that we are still using the same broker enter the following on the comm
 mosquitto_sub -h mqtt.iot-kit.nl -v -t '#'
 ```
 
-Everytime somebody presses Switch 2 you'll get a notification on your screen.
+Everytime somebody presses Switch 2 you'll get a notification on your screen. ![](/img/lessons/lesson-3/mosquitto_sub.png)
 
