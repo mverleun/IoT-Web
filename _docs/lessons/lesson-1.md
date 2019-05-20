@@ -39,9 +39,11 @@ I2C is a communication technique that allows certain electronic components to co
 
 
 # Node RED
-Node RED is installed by default but it is not enabled yet. Enter the following command to enable it:
+Node RED is installed by default but it is not enabled yet. Enter the following command to enable it and to install some additional software that will be helpful.
 
 ```bash
+sudo apt update
+sudo apt install -y npm
 sudo systemctl enable --now nodered.service
 ```
 ![](/img/lessons/lesson-1/node-red.png)
