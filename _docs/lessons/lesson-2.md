@@ -1,6 +1,6 @@
 ---
-permalink: /docs/lesson-1/
-title: "Lesson 1: Prepare Raspberry Pi"
+permalink: /docs/lesson-2/
+title: "Lesson 2: Check hardware"
 ---
 
 # Objectives
