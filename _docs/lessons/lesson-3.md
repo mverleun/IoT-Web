@@ -47,3 +47,27 @@ And the first one to release the button will turn all LED's off.
 You can see what is happening if you add a 'debug output' node like this: ![](/img/lessons/lesson-3/debug.png)
 Make sure you select the 'debug' output column on the right side.
 
+## Debugging MQTT
+
+Sometimes it is difficult to troubleshoot MQTT problems. Especially if you do not have access to the MQTT broker.
+
+By installing some commandline tools debugging becomes a bit less difficult. Install them by entering the following commands:
+
+```bash
+sudo apt update
+sudo apt install mosquitto-clients
+```
+
+Once you are done you can use the commandline tools to publish information to a topic or subscribe to one.
+In the following example we'll subscribe to a wildcard topic, which show a lot of information.
+
+If you want to learn more about MQTT I recommend [this](https://mosquitto.org/man/mqtt-7.html) page.
+
+Assuming that we are still using the same broker enter the following on the command line:
+
+```bash
+mosquitto_sub -h mqtt.iot-kit.nl -v -t '#'
+```
+
+Everytime somebody presses Switch 2 you'll get a notification on your screen.
+
