@@ -38,12 +38,14 @@ You could also setup your own and use that one. It's not difficult but you have 
 
 Just use one of the following guides to get things going:
 
+<!--
 * [Howto Setup your own server](/docs/Setting-up-services)
 * Configure Owntracks on iOS device
 * Configure Owntracks on Android device
 * [Start the Demo](/docs/Start-Demo)
 * [Problem solving](/docs/Problem-Solving) 
 * [Next steps](/docs/Next-Steps)
+-->
 
 
  
